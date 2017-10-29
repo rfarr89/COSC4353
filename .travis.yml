@@ -1,5 +1,2 @@
-language: ruby
-rvm:
- - 2.2
- - jruby
- - rbx-2
+language: java
+script: mvn clean compile -DskiptTests
